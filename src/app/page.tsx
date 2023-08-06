@@ -1,6 +1,6 @@
 "use client"
-import { ConfirmEventButton } from "@/components/confirm-event-button";
 import { EventCalendar } from "@/components/event-calendar";
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 export default function Home() {
@@ -11,7 +11,6 @@ export default function Home() {
       <div className="flex flex-col items-center gap-2 ">
         <h1 className="mb-4 text-2xl">Event Manager</h1>
         <EventCalendar />
-        <ConfirmEventButton buttonText="Create Event"/>
       </div>
     </main>
   )
